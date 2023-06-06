@@ -5,23 +5,23 @@ $symbols = "+";
 
 if ($symbols == "+") {
     $ans = $num1 + $num2;
-    echo "The answer is $ans.\n";
+    echo "The answer for $num1 + $num2 is $ans.\n";
 } 
 else if ($symbols == "-") {
     $ans = $num1 - $num2;
-    echo "The answer is $ans.\n";
+    echo "The answer for $num1 - $num2 is $ans.\n";
 }
 else if ($symbols == "*") {
     $ans = $num1 * $num2;
-    echo "The answer is $ans.\n";
+    echo "The answer for $num1 * $num2 is $ans.\n";
 }
 else if ($symbols == "/") {
     $ans = $num1 / $num2;
-    echo "The answer is $ans.\n";
+    echo "The answer for $num1 / $num2 is $ans.\n";
 }
 else if ($symbols == "%") {
     $ans = $num1 % $num2;
-    echo "The answer is $ans.\n";
+    echo "The answer for $num1 % $num2 is $ans.\n";
 } else {
     echo "Error!";
 }
